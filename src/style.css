@@ -13,7 +13,8 @@ nav#nav-menu {
   font-size: 18px;
 }
 .btn-outline-success.my-2.my-sm-0 {
-  background-color: #000000 !important;
+  background-color: #367e55 !important;
+  color: #ffffff !important;
 }
 a.a-text {
   color: #ffffff !important;

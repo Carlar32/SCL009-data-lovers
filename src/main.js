@@ -1,5 +1,6 @@
 // Calling the data
 // let pkmnArray = window.POKEMON.pokemon;
+window.addEventListener("load", () => {
 fetch("https://raw.githubusercontent.com/Carlar32/SCL009-data-lovers/master/src/data/pokemon/pokemon.json")
 .then(response => response.json())
 .then(data => { 
@@ -225,3 +226,4 @@ const getCurrentArray = () => {
 }
 
 })
+});
